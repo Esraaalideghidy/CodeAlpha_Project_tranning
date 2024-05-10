@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <span>Age Calculator</span>
+            <div class="inputes">
+                <label for="">Date Of Birth</label>
+                <input type="date" value="2000-01-01" id="inputDob">
+                <label for="">Age At The Date Of</label>
+                <input type="date" value="" id="cdate">
+            </div>
+            <div class="footer">
+                <button onclick="getDOB()">Calculate</button>
+
+            </div>
+
+        </div>
+        <div id="currentAge">
+            <div id="Year">
+                <h3 id="h3">Year</h3>
+                <p id="ryear"> -- </p>
+            </div>
+            <div id="Month">
+                <h3 id="h3">Month</h3>
+                <p id="rmonth"> -- </p>
+            </div>
+            <div id="Day">
+                <h3 id="h3">Day</h3>
+                <p id="rday"> -- </p>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </div>
+
+
+</body>
+
+</html>
